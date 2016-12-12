@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--- What are you doing??
+Looking for secrets?
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="daniel ku, waterloo, co-op, student, engineering, software developer">
+    <meta name="description" content="Personal Website for Daniel Ku, supplementary ">
+    <title>Daniel Ku | Resume</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> --> <!--Doesn't work apparently-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/dk.css" rel="stylesheet"> <!-- Anything in this site.css will override bootstrap defaults -->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!--NAVBAR -->
+  <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" style="background: rgba(255, 255, 255, 0.9);">
+    <div class="container-fluid">
+       <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand scroll-top" href="#">Daniel Ku</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="page-scroll">About</a></li>
+           <li><a href="#skills" class="page-scroll">Skills</a></li>
+           <li><a href="#work" class="page-scroll">Work Experience</a></li>
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Me <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li>
+                  <a class="fa fa-envelope-square" style="font-size:20px" aria-hidden="true" href="mailto:danielku97@gmail.com"> Email</a> 
+               </li>
+
+               <li>
+                  <a class="fa fa-linkedin-square" style="font-size:20px" aria-hidden="true" href="https://ca.linkedin.com/in/daniel-ku" target="blank"> LinkedIn</a> 
+               </li>
+
+               <li>
+                  <a class="fa fa-facebook-square" style="font-size:20px" aria-hidden="true" href="https://www.facebook.com/daniel.ku.7" target="blank"> Facebook</a> 
+               </li>
+
+               <li role="separator" class="divider"></li>
+                
+               <li>
+                  <a href="Daniel_Ku_Resume.pdf" class="fa fa-file-pdf-o" style="font-size:20px" aria-hidden="true" target="blank"> Resume</i></a>
+               </li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Text -->
+    <div class="container-fluid portrait" align="center">
+      <img class="img-circle" src="images/profile_picture.jpg" alt=":'( No pic makes this circle look ugly..." style="border-style: solid; border-width: medium; min-height: 250px; min-width: 250px; height: 20%; width: 20%;">
+      <h1 class="big-name"><b>DANIEL KU</b></h1>
+      <h3> Computer Engineering Student</h3>
+      <h4>University of Waterloo </h4>
+    </div>
+
+    <!--About Text-->
+    <div id="about" class="container-fluid about" align="center">
+      <h2>About Me!</h2>
+      <div class="col-md-9">
+        <p style="text-align: left; font-size: 20px">
+          Hello, I'm Daniel Ku and I am a student with a passion for software development. I love the feeling of going into work knowing I will be coding all day. With this field of work, there is always room to learn more and that is a huge motivator for me, there is great pride knowing that every day, I get a little better at what I do. <br> <br>
+
+          I am a lifelong learner and accept that for everything I do, I can always do it better. I am very interested in working with new languages and technologies so I can expand my ever-growing skillset. Feel free to get in <a href="#contact" class="page-scroll">contact</a> with me!
+        </p>
+      </div>
+      <div class="col-md-3">
+      <p  style="font-size: 22px; text-decoration: underline; text-align: center;">Some of my interests</p>
+      <ul style="display:table; font-size: 20px; padding-left: 5px">
+        <li>Cooking/Baking</li>
+        <li>Video Games</li>
+        <li>Playing the piano</li>
+        <li>Biking</li>
+        <li>Gardening</li>
+        <li>Chess</li>
+      </ul>
+      </div>
+    </div>
+
+
+    <!--Flip Cards/Skills -->
+    <div class="container-fluid skills">
+      <div id="skills" class="row text-center also-excluded-from-divs-pls ">
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="container" style="text-align: center;">
+        <div class="info-card">
+          <div class="front">
+            <img class="card-image-java" src="images/java_logo.png">
+          </div>
+          <div class="back">
+            <h2>Java</h2>
+            <h4>Learning Since: 2014</h4>
+            <h4>Formal Courses Taken: 2</h4>
+            <h4>Job Experience: None</h4>
+            <p style="text-align: left;">
+              Taken a high school level as well as a university level course. Familiar with OOP, Junit, JavaFX and android application development.
+            </p>
+          </div>
+        </div>
+
+        <!-- Scrolling enabled for longer content -->
+        <div class="info-card" >
+          <div class="front ruby-background">
+            <img class="card-image-ruby" src="images/ruby_logo.png">
+          </div>
+          <div class="back">
+            <h2>Ruby</h2>
+            <h4>Learning Since: 2016</h4>
+            <h4>Formal Courses Taken: 0</h4>
+            <h4>Job Experience: 4 Months</h4>
+            <p style="text-align: left;">
+                Picked up Ruby on the job and a bit of Ruby On Rails knowledge alongside it. Also have experience using Rspec for TDD testing.
+            </p>
+          </div>
+        </div>
+
+       <div class="info-card">
+          <div class="front c-sharp-background">
+            <img class="card-image-c-sharp" src="images/c_sharp_logo.png">
+          </div>
+          <div class="back">
+            <h2>C#</h2>
+            <h4>Learning Since: 2014</h4>
+            <h4>Formal Courses Taken: 0</h4>
+            <h4>Job Experience: 4 Months</h4>
+            <p style="text-align: left;">
+                Learned on the job by creating ASP.NET MVC web APIS, utilizing frameworks such as Nhibernate to connect to databases. 
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="front c-plus-plus-background">
+            <img class="card-image-c-plus-plus" src="images/c_plus_plus_logo.png">
+          </div>
+          <div class="back">
+            <h2>C++</h2>
+            <h4>Learning Since: 2015</h4>
+            <h4>Formal Courses Taken: 1</h4>
+            <h4>Job Experience: None</h4>
+            <p style="text-align: left;">
+              Taken an university level course that explained basic programming concepts, along with pointers, linked lists, and RISC.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="front html-css-background">
+            <img class="card-image-html-css" src="images/html_css_logo.png">
+          </div>
+          <div class="back">
+            <h2>HTML/CSS</h2>
+            <h4>Learning Since: 2016</h4>
+            <h4>Formal Courses Taken: 0</h4>
+            <h4>Job Experience: 4 Months</h4>
+            <p style="text-align: left;">
+              Performed web scraping on the job. Additionally, I made this site :)
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="front sql-background">
+            <img class="card-image-sql" src="images/sql_logo.png">
+          </div>
+          <div class="back">
+            <h2>SQL</h2>
+             <h4>Learning Since: 2015</h4>
+            <h4>Formal Courses Taken: 0</h4>
+            <h4>Job Experience: 8 Months</h4>
+            <p style="text-align: left;">
+              Experienced with creating and modifying queries, joining tables, and writing stored procedures.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="front git-background">
+            <img class="card-image-git" src="images/git_logo.png">
+          </div>
+          <div class="back">
+            <h2>git</h2>
+            <h4>Learning Since: 2016</h4>
+            <h4>Formal Courses Taken: 0</h4>
+            <h4>Job Experience: 4 Months</h4>
+            <p style="text-align: left;">
+              Very familiar with using git repositories and workflow. Experience resolving some merge conflicts.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+       <!--Work Experience-->
+
+    <div id="work" class="work">
+       <h2 style="text-align: center; padding-top: 14px">Places I've worked at!</h2>
+       <hr>
+
+       <div class="flipp-div-parent">
+         <div class="flipp-div col-md-5">
+           <img class="flipp-logo" src="images/flipp_logo.png" alt="Flipp Logo" align="middle">
+         </div>
+         <div class="flipp-text flipp-div col-md-7">
+
+          <div class="flipp-div row">
+            <div class="flipp-div col-md-8 text-left">
+             <p style="font-size: 36px">Flipp Corperation </p>
+             <p style="font-size: 24px">Software Developer</p>
+            </div>
+            <div class="flipp-div col-md-4 text-left">
+           <p style="font-size: 22px">Jan. 2016 - Apr. 2016</p>
+            </div>
+          </div>
+
+           <ul style="font-size: 20px" class="flipp-list">
+             <li>Developed CSV parsers and scripts in Ruby</li>
+             <li>Followed the Agile software development process using Jira/Kanban board</li>
+             <li>Supported the operations team, solving technical issues and clearly explaining the solution without technical jargon</li>
+           </ul>
+        </div>
+      </div>
+
+      <div class="dh-div-parent">
+
+         <div class="dh-div col-md-5 col-md-push-7">
+           <img class="dh-logo" src="images/d+h_logo.png" alt="D+H Logo" align="middle">
+         </div>
+
+        <div class="dh-div col-md-7 col-md-pull-5">
+
+          <div class="dh-div row">
+            <div class="dh-div col-md-8 text-left">
+             <p class="dh-text" style="font-size: 36px">D+H Corperation </p>
+             <p class="dh-text" style="font-size: 24px">Software Developer</p>
+            </div>
+            <div class="dh-div col-md-4 text-left">
+           <p class="dh-date" style="font-size: 22px">Sept. 2016 - Dec. 2016</p>
+            </div>
+          </div>
+
+           <ul style="font-size: 20px" class="dh-list">
+             <li>Created ASP.NET MVC Web API'S in C#</li>
+             <li>Maintained Oracle database, added stored procedures and queried using Nhibernate</li>
+             <li>Migrated Crystal Reports from versions 8.5 to 2013 by rewriting SQL queries</li>
+           </ul>
+         </div>
+       </div>
+    </div>
+
+    <!--Contact and Resume-->
+    <div id="contact" class=" row footer">
+       <h2 class="text-center">Get in contact with me!</h2>
+
+       <a class="email fa fa-envelope-square btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" href="mailto:danielku97@gmail.com">
+       </a>
+
+       <a type="button" class="linkedin fa fa-linkedin-square btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" href="https://ca.linkedin.com/in/daniel-ku" target="blank"></a>
+
+       <a type="button" class="facebook fa fa-facebook-square btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" href="https://www.facebook.com/daniel.ku.7" target="blank"></a>
+
+       <a href="Daniel_Ku_Resume.pdf" class="resume fa fa-file-pdf-o btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" target="blank"></a>
+
+       <div class="email-text">danielku97@gmail.com</div>
+       <div class="linkedin-text">LinkedIn</div>
+       <div class="facebook-text">Facebook</div>
+       <div class="resume-text">Download my Resume!</div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/dk.js"></script>
+  </body>
+</html>
