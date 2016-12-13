@@ -48,6 +48,14 @@ body  {
 	font-size: 60px
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
 /* SKILLS */
 
 .info-card {
@@ -185,12 +193,18 @@ body  {
 	background-color: #2d3a43;
 	color: #FFFFFF;
 }
+
 .flipp-logo{
 /*	margin-left: 130px;
 	margin-top: 40px;*/
-	margin-left: 9.5em;
-	margin-top: 3em;
-	border: none;
+/*	margin-left: 9.5em;
+	margin-top: 3em;*/
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
 	height: auto;
 	width: auto;
 	max-width: 300px;
@@ -198,12 +212,15 @@ body  {
 }
 
 .flipp-text{
-	margin-top: 20px;
+}
+
+.flipp-date{
+	margin-top: 10px;
 }
 
 .dh-div-parent{
 	background-color: #DDDDDD;
-	min-height: 300px;
+	min-height: 320px;
 }
 
 .dh-div{
@@ -212,9 +229,14 @@ body  {
 
 }
 .dh-logo{
-	margin-left: 9.5em;
-	margin-top: 6.3em;
-	border: none;
+/*	margin-left: 9.5em;
+	margin-top: 6.3em;*/
+	position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
 	height: auto;
 	width: auto;
 	max-width: 300px;
@@ -222,13 +244,10 @@ body  {
 }
 
 .dh-text{
-	margin-left: 20px;
-	margin-top: 20px;
 }
 
 .dh-date{
-	margin-left: 0px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 /* CONTACT INFO */
