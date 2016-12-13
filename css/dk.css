@@ -39,6 +39,10 @@ body  {
 }
 
 /* MISC/ABOUT */
+.side-padding{
+	padding-left: 100px;
+	padding-right: 100px;
+}
 
 .big-name{
 	font-size: 60px
@@ -182,8 +186,10 @@ body  {
 	color: #FFFFFF;
 }
 .flipp-logo{
-	margin-left: 130px;
-	margin-top: 40px;
+/*	margin-left: 130px;
+	margin-top: 40px;*/
+	margin-left: 9.5em;
+	margin-top: 3em;
 	border: none;
 	height: auto;
 	width: auto;
@@ -206,8 +212,8 @@ body  {
 
 }
 .dh-logo{
-	margin-left: 130px;
-	margin-top: 90px;
+	margin-left: 9.5em;
+	margin-top: 6.3em;
 	border: none;
 	height: auto;
 	width: auto;
