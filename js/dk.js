@@ -4,10 +4,8 @@ $(".btn").mouseup(function(){
 
 $(window).on('resize', function() {
     if($(window).width() > 980) {
-        console.log('small')
         $('#flipp-eq-height').addClass('row-eq-height');
     }else{
-        console.log('big')
         $('#flipp-eq-height').removeClass('row-eq-height');
     }
 })

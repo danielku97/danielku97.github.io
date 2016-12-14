@@ -40,7 +40,6 @@ body  {
 
 /* MISC/ABOUT */
 
-
 .big-name{
 	font-size: 60px
 }
@@ -339,6 +338,11 @@ div:not(.info-card, .also-excluded-from-divs-pls ){
 	  display: -webkit-flex;
 	  display: -ms-flexbox;
 	  display:         flex;
+	}
+
+	.side-padding{
+		padding-left: 10em;
+		padding-right: 10em;
 	}
 }
 
