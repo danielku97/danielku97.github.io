@@ -1,0 +1,421 @@
+/*THERE ARE NO SECRETS HERE, WHAT ARE YOU LOOKING FOR?!?!*/
+
+body  {
+    background-color: #DDDDDD; /* Some weird lines occur...*/
+    margin-top: 50px;
+}
+
+/* SECTIONS */
+
+.portrait{
+	padding-top: 20px;
+	background-image: url("../images/bg_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*  max-width: 100%;
+    height: auto;*/
+}
+.about{
+	color: #FFFFFF;
+	background-color: #2d3a43; 
+}
+
+.skills{
+	background-color: #DDDDDD; 
+}
+
+.work{
+	color: #FFF;
+	background-color: #2d3a43; 
+}
+
+.footer {
+	background-color: #cb6c67;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+/* MISC/ABOUT */
+
+
+.big-name{
+	font-size: 60px
+}
+
+/* SKILLS */
+
+.info-card {
+	margin: 10px;
+	-webkit-perspective: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.front, .back {
+	background: #FFF;
+	border-radius: 10px;
+	transition: -webkit-transform 1s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-ms-transform-style: preserve-3d;
+	-ms-backface-visibility: hidden;
+	border: 1px solid black;
+}
+
+.front {
+	overflow: hidden;
+	width: 250px;
+	height: 330px;
+	position: absolute;
+	z-index: 1;
+}
+
+.back {
+	text-align: center;
+	padding: 20px;
+	padding-top: 0px;
+	width: 250px;
+	height: 330px;
+	-webkit-transform: rotateY(-180deg);
+/*	overflow: scroll;*/
+}
+
+.info-card:hover .back {
+	-webkit-transform: rotateY(0);
+	-ms-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+}
+
+.card-image {
+	width: 100%;
+	height: 100%;
+}
+
+.card-image-java {
+	margin-top: -30px;
+	margin-left: -23px;
+	width: 120%;
+	height: 110%;
+}
+
+.card-image-ruby {
+	margin-top: 48px;
+	margin-left: 20px;
+	width: 80%;
+	height: 70%;
+
+}
+
+.ruby-background{
+	background-color: #C2514B;
+}
+
+.card-image-c-sharp {
+	margin-top: 30px;
+	width: 100%;
+	height: 80%;
+}
+
+.c-sharp-background{
+	background-color: #CC8AC9;
+}
+
+.card-image-c-plus-plus {
+	margin-left: -30px;
+	margin-top: -10px;
+	width: 125%;
+	height: 102%;
+}
+
+.c-plus-plus-background{
+	background-color: #87BAF1;
+}
+
+.card-image-sql{
+	margin-left: -18px;
+	margin-top: 10px;
+	width: 115%;
+	height: 90%;
+}
+
+.sql-background{
+	background-color: #E6E6FA;
+}
+
+.card-image-git{
+	margin-left: -18px;
+	margin-top: 10px;
+	width: 115%;
+	height: 90%;
+}
+
+.git-background{
+	background-color: #E6E6FA;
+}
+
+.card-image-html-css{
+	margin-left: 3px;
+	margin-top: 48px;
+	width: 100%;
+	height: 70%;
+}
+
+.html-css-background{
+	background-color: #E6E6FA;
+}
+
+/* WORK EXPERIENCE*/
+
+.flipp-div-parent{
+	background-color: #2d3a43;
+	min-height: 300px;
+}
+
+.flipp-div{
+	background-color: #2d3a43;
+	color: #FFFFFF;
+}
+
+.flipp-logo{
+	/* Don't think this ever applies anymore */
+	margin-left: 15px;
+	margin-top: 30px;
+	border: none;
+	height: 180px;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.flipp-text{
+	margin-top: 20px;
+}
+
+.dh-div-parent{
+	background-color: #DDDDDD;
+	min-height: 300px;
+}
+
+.dh-div{
+	color: #333;
+	background-color: #DDDDDD;
+
+}
+.dh-logo{
+	margin-left: 130px;
+	margin-top: 90px;
+	border: none;
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.dh-text{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.dh-date{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+/* CONTACT INFO */
+
+ .btn {
+	background-color: #8BC34A;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 5px;
+	text-align: center;
+	z-index: 3;
+} 
+
+.btn-circle {
+	width: 49px;
+	height: 49px;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 20px;
+	line-height: 2.00;
+	border-radius: 30px;
+}
+
+
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 50%;
+}
+
+.fa-envelope-square{
+	line-height: 38px;
+}
+
+.fa-linkedin-square{
+	line-height: 38px;
+}
+
+.fa-facebook-square{
+	line-height: 38px;
+}
+
+.fa-file-pdf-o{
+	line-height: 38px;
+}
+
+.email-text, .linkedin-text, .facebook-text, .resume-text{
+	padding-bottom: 30px;
+	display:none;
+}
+
+.email:hover ~ .email-text{
+	display:block;
+}
+
+.linkedin:hover ~ .linkedin-text{
+	display:block;
+}
+
+.facebook:hover ~ .facebook-text{
+	display:block;
+}
+
+.resume:hover ~ .resume-text{
+	display:block;
+}
+
+.dropdown-menu{
+	padding-left: 10px;
+	left: auto;
+}
+
+div:not(.info-card, .also-excluded-from-divs-pls ){ 
+	/* Cards were being hidden, so they are exluded. This is necessary because some weird bars appear without the div overflow hidden */
+  overflow: hidden;
+}
+
+@media screen and (min-width:997px){
+
+	.flipp-logo{
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+	.dh-logo{
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+}
+
+@media screen and (max-width:996px){
+
+
+
+/* WORK EXPERIENCE */
+	.flipp-div-parent{
+	background-color: #2d3a43;
+	min-height: 300px;
+}
+
+.flipp-div{
+	text-align: center;
+	background-color: #2d3a43;
+	color: #FFFFFF;
+}
+.flipp-logo{
+	margin-left: 15px;
+	margin-top: 30px;
+	border: none;
+	height: 180px;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.flipp-text{
+	margin-top: 20px;
+}
+
+.flipp-list{
+	margin-left: -40px;
+	list-style-type: none;
+}
+
+.dh-div-parent{
+	background-color: #DDDDDD;
+	min-height: 300px;
+}
+
+.dh-div{
+	text-align: center;
+	color: #333;
+	background-color: #DDDDDD;
+
+}
+.dh-logo{
+	margin-left: 16px;
+	margin-top: 50px;
+	border: none;
+	height: 80px;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.dh-text{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.dh-date{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.dh-list{
+	margin-left: -40px;
+	list-style-type: none;
+}
+
+}
+
+
+
+
+
+
