@@ -39,22 +39,11 @@ body  {
 }
 
 /* MISC/ABOUT */
-.side-padding{
-	padding-left: 100px;
-	padding-right: 100px;
-}
+
 
 .big-name{
 	font-size: 60px
 }
-
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-
 
 /* SKILLS */
 
@@ -195,32 +184,23 @@ body  {
 }
 
 .flipp-logo{
-/*	margin-left: 130px;
-	margin-top: 40px;*/
-/*	margin-left: 9.5em;
-	margin-top: 3em;*/
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;  
-	height: auto;
+	/* Don't think this ever applies anymore */
+	margin-left: 15px;
+	margin-top: 30px;
+	border: none;
+	height: 180px;
 	width: auto;
 	max-width: 300px;
 	max-height: 300px;
 }
 
 .flipp-text{
-}
-
-.flipp-date{
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .dh-div-parent{
 	background-color: #DDDDDD;
-	min-height: 320px;
+	min-height: 300px;
 }
 
 .dh-div{
@@ -229,14 +209,9 @@ body  {
 
 }
 .dh-logo{
-/*	margin-left: 9.5em;
-	margin-top: 6.3em;*/
-	position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;  
+	margin-left: 130px;
+	margin-top: 90px;
+	border: none;
 	height: auto;
 	width: auto;
 	max-width: 300px;
@@ -244,10 +219,13 @@ body  {
 }
 
 .dh-text{
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 .dh-date{
-	margin-top: 30px;
+	margin-left: 0px;
+	margin-top: 20px;
 }
 
 /* CONTACT INFO */
@@ -328,7 +306,45 @@ div:not(.info-card, .also-excluded-from-divs-pls ){
   overflow: hidden;
 }
 
+@media screen and (min-width:997px){
+
+	.flipp-logo{
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+	.dh-logo{
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+}
+
 @media screen and (max-width:996px){
+
+
 
 /* WORK EXPERIENCE */
 	.flipp-div-parent{
