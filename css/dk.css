@@ -1,28 +1,35 @@
 /*THERE ARE NO SECRETS HERE, WHAT ARE YOU LOOKING FOR?!?!*/
 
 body  {
-    background-color: #DDDDDD; /* Some weird lines occur...*/
+    background-color: #FFFFFF; /* Some weird lines occur...*/
     margin-top: 50px;
 }
 
 /* SECTIONS */
 
 .portrait{
-	padding-top: 20px;
-	background-image: url("../images/bg_image.jpg");
-    background-position: center;
+	background-image: url("../images/profile_picture.jpg");
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-/*  max-width: 100%;
-    height: auto;*/
+    min-height: 110%;
 }
+
 .about{
-	color: #FFFFFF;
-	background-color: #2d3a43; 
+	padding-top: 20px;
+	color: #000000;
+	background-color: #FFFFFF; 
+	padding-bottom: 20px;
+}
+
+.interests{
+	width: 35%;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .skills{
-	background-color: #DDDDDD; 
+	background-color: #FFFFFF; 
 }
 
 .work{
@@ -31,7 +38,7 @@ body  {
 }
 
 .footer {
-	background-color: #cb6c67;
+	background-color: #FFFFFF;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -40,13 +47,42 @@ body  {
 
 /* MISC/ABOUT */
 
-.big-name{
-	font-size: 60px
+.big-title{
+	letter-spacing: 4px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0;
+	font-size: 110px;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.small-title{
+	padding-bottom: 10px;
+	margin: 0;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.end-title{
+	padding-bottom: 30px;
+	margin: 0;
+	font-size: 27px;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.section-start{
+	color: #FFFFFF;
+	background-color: #1B2964;
 }
 
 /* SKILLS */
 
 .info-card {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin: 10px;
 	-webkit-perspective: 600px;
 	display: inline-block;
@@ -98,22 +134,26 @@ body  {
 }
 
 .card-image-java {
-	margin-top: -30px;
-	margin-left: -23px;
-	width: 120%;
-	height: 110%;
+	margin-top: 5px;
+	margin-left: -10px;
+	width: 70%;
+	height: 90%;
+}
+
+.java-background{
+	background-color: #E6E6FA;
 }
 
 .card-image-ruby {
-	margin-top: 48px;
-	margin-left: 20px;
-	width: 80%;
+	margin-top: 40px;
+	margin-left: 2px;
+	width: 70%;
 	height: 70%;
 
 }
 
 .ruby-background{
-	background-color: #C2514B;
+	background-color: #E6E6FA;
 }
 
 .card-image-c-sharp {
@@ -123,7 +163,7 @@ body  {
 }
 
 .c-sharp-background{
-	background-color: #CC8AC9;
+	background-color: #E6E6FA;
 }
 
 .card-image-c-plus-plus {
@@ -134,7 +174,7 @@ body  {
 }
 
 .c-plus-plus-background{
-	background-color: #87BAF1;
+	background-color: #E6E6FA;
 }
 
 .card-image-sql{
@@ -172,106 +212,68 @@ body  {
 
 /* WORK EXPERIENCE*/
 
-.flipp-div-parent{
-	background-color: #2d3a43;
+.work-div-parent{
+	background-color: #FFFFFF;
 	min-height: 300px;
 }
 
-.flipp-div{
-	background-color: #2d3a43;
-	color: #FFFFFF;
+.work-title{
+	padding-top: 20px;
 }
 
-.flipp-logo{
-	/* Don't think this ever applies anymore */
-	margin-left: 15px;
-	margin-top: 30px;
-	border: none;
-	height: 180px;
-	width: auto;
-	max-width: 300px;
-	max-height: 300px;
+.work-div{
+	background-color: #FFFFFF;
+	color: #000000;
 }
 
-.flipp-text{
-	margin-top: 20px;
-}
-
-.dh-div-parent{
-	background-color: #DDDDDD;
-	min-height: 300px;
-}
-
-.dh-div{
-	color: #333;
-	background-color: #DDDDDD;
-
-}
-.dh-logo{
-	margin-left: 130px;
-	margin-top: 90px;
-	border: none;
+.work-logo{ 
+	margin: auto;
+	margin-right: 50px;
 	height: auto;
 	width: auto;
 	max-width: 300px;
 	max-height: 300px;
 }
 
-.dh-text{
-	margin-left: 20px;
-	margin-top: 20px;
-}
-
-.dh-date{
-	margin-left: 0px;
-	margin-top: 20px;
-}
-
 /* CONTACT INFO */
 
  .btn {
-	background-color: #8BC34A;
+	background-color: #1B2964;
 	display: inline-block;
 	border-radius: 50%;
+	border-color: #1B2964;
 	margin: 5px;
 	text-align: center;
 	z-index: 3;
 } 
 
 .btn-circle {
-	width: 49px;
-	height: 49px;
+	width: 150px;
+	height: 150px;
 	text-align: center;
 	padding: 5px 0;
 	font-size: 20px;
 	line-height: 2.00;
-	border-radius: 30px;
-}
-
-
-.btn-circle.btn-lg {
-	width: 50px;
-	height: 50px;
-	padding: 10px 16px;
-	font-size: 18px;
-	line-height: 1.33;
-	border-radius: 50%;
 }
 
 .fa-envelope-square{
-	line-height: 38px;
+	color: #FFFFFF;
+	line-height: 140px;
 }
 
 .fa-linkedin-square{
-	line-height: 38px;
+	color: #FFFFFF;
+	line-height: 140px;
 }
 
 .fa-facebook-square{
-	line-height: 38px;
+	color: #FFFFFF;
+	line-height: 140px;
 }
 
 .fa-file-pdf-o{
-	line-height: 38px;
+	color: #FFFFFF;
+	line-height: 140px;
 }
 
 .email-text, .linkedin-text, .facebook-text, .resume-text{
@@ -280,18 +282,22 @@ body  {
 }
 
 .email:hover ~ .email-text{
+	font-family: 'Lato';
 	display:block;
 }
 
 .linkedin:hover ~ .linkedin-text{
+	font-family: 'Lato';
 	display:block;
 }
 
 .facebook:hover ~ .facebook-text{
+	font-family: 'Lato';
 	display:block;
 }
 
 .resume:hover ~ .resume-text{
+	font-family: 'Lato';
 	display:block;
 }
 
@@ -305,34 +311,17 @@ div:not(.info-card, .also-excluded-from-divs-pls ){
   overflow: hidden;
 }
 
-@media screen and (min-width:997px){
+@media screen and (min-width:1300px){
 
-	.flipp-logo{
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;  
+	.work-logo{ 
+	margin: auto;
+	margin-right: 50px;
+	margin-left: 0px;
 	height: auto;
 	width: auto;
 	max-width: 300px;
 	max-height: 300px;
 }
-
-	.dh-logo{
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;  
-	height: auto;
-	width: auto;
-	max-width: 300px;
-	max-height: 300px;
-}
-
 	.row-eq-height {
 	  display: -webkit-box;
 	  display: -webkit-flex;
@@ -346,22 +335,52 @@ div:not(.info-card, .also-excluded-from-divs-pls ){
 	}
 }
 
-@media screen and (max-width:996px){
+@media screen and (max-width:1299px){
 
+.big-title{
+	margin: 0;
+	font-size: 40px;
+	color: #FFFFFF;
+}
 
+.small-title{
+	margin: 0;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.end-title{
+	padding-bottom: 15px;
+	margin: 0;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.25);
+}
 
 /* WORK EXPERIENCE */
-	.flipp-div-parent{
-	background-color: #2d3a43;
+
+.work-logo{ 
+	margin: auto;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+
+.work-div-parent{
 	min-height: 300px;
 }
 
-.flipp-div{
+.work-div{
 	text-align: center;
-	background-color: #2d3a43;
-	color: #FFFFFF;
 }
-.flipp-logo{
+
+.work-logo{
 	margin-left: 15px;
 	margin-top: 30px;
 	border: none;
@@ -371,51 +390,65 @@ div:not(.info-card, .also-excluded-from-divs-pls ){
 	max-height: 300px;
 }
 
-.flipp-text{
-	margin-top: 20px;
-}
 
-.flipp-list{
+.work-list{
 	margin-left: -40px;
 	list-style-type: none;
 }
 
-.dh-div-parent{
-	background-color: #DDDDDD;
-	min-height: 300px;
-}
-
-.dh-div{
-	text-align: center;
-	color: #333;
-	background-color: #DDDDDD;
-
-}
-.dh-logo{
-	margin-left: 16px;
-	margin-top: 50px;
-	border: none;
-	height: 80px;
-	width: auto;
+	.flipp-logo{
+	padding-top: 40px;
 	max-width: 300px;
 	max-height: 300px;
 }
 
-.dh-text{
-	margin-left: 10px;
-	margin-top: 20px;
+	.dh-logo{
+	padding-top: 100px;
+	max-width: 300px;
+	max-height: 300px;
 }
 
-.dh-date{
-	margin-left: 0px;
-	margin-top: 20px;
 }
 
-.dh-list{
-	margin-left: -40px;
-	list-style-type: none;
+@media screen and (max-width:996px){
+.work-logo{ 
+	position: absolute;
+	margin: auto;
+	height: auto;
+	width: auto;
+	max-width: 200px;
+	max-height: 200px;
 }
 
+.work-title{
+	padding-top: 20px;
+	text-align:center;
+}
+
+}
+
+@media screen and (max-width:692px){
+.work-logo{ 
+	position: absolute;
+	margin: auto;
+	height: auto;
+	width: auto;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.work-title{
+	text-align:center;
+}
+
+@media screen and (max-width:575px){
+	.work-logo{ 
+	max-width: 0px;
+	max-height: 0px;
+}
+
+.work-title{
+	text-align:center;
 }
 
 

@@ -9,6 +9,8 @@ Looking for secrets?
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="daniel ku, waterloo, co-op, student, engineering, software developer">
     <meta name="description" content="Personal Website for Daniel Ku, supplementary ">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <title>Daniel Ku | Resume</title>
 
     <!-- Bootstrap -->
@@ -33,9 +35,9 @@ Looking for secrets?
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about" class="page-scroll">About</a></li>
-           <li><a href="#skills" class="page-scroll">Skills</a></li>
-           <li><a href="#work" class="page-scroll">Work Experience</a></li>
+          <li><a href="#about-start" class="page-scroll">About</a></li>
+           <li><a href="#skills-start" class="page-scroll">Skills</a></li>
+           <li><a href="#work-start" class="page-scroll">Work Experience</a></li>
            <li class="dropdown">
              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Me <span class="caret"></span></a>
              <ul class="dropdown-menu">
@@ -65,50 +67,67 @@ Looking for secrets?
     </nav>
 
     <!--Text -->
-    <div class="container-fluid portrait" align="center">
-      <img class="img-circle" src="images/profile_picture.jpg" alt=":'( No pic makes this circle look ugly..." style="border-style: solid; border-width: medium; min-height: 250px; min-width: 250px; height: 20%; width: 20%;">
-      <h1 class="big-name" ><b>DANIEL KU</b></h1>
-      <h3 style="font-weight:bold">2B Computer Engineering Student</h3>
-      <h4 style="font-weight:bold">University of Waterloo </h4>
+    <div class="portrait" align="center">
+        <h1 class="big-title" style="font-family: 'Oswald', sans-serif;">DANIEL KU</h1>
+        <h3 class="small-title" style="font-weight:bold; font-family: 'Lato', sans-serif;">2B Computer Engineering Student</h3>
+        <h4 class="end-title" style="font-weight:bold; font-family: 'Lato', sans-serif;">University of Waterloo </h4>
     </div>
+
+     <div id="about-start" class="container-fluid section-start side-padding" align="left">
+      <h2 style="font-family: 'Oswald'; font-size: 80px">ABOUT ME</h2>
+     </div>
 
     <!--About Text-->
     <div id="about" class="container-fluid about side-padding" align="center">
-      <h2 style="padding-top: 15px; font-family:Georgia;">About Me</h2>
       <div class="col-md-9">
-        <p style="text-align: left; font-family:Georgia; font-size: 20px">
-          Hello, I'm Daniel Ku and I am a student with a passion for backend software development. I could write about how I love life long learning, and how I code in my spare time as a hobby, but who wouldn't you hear that from? Initially, I wrote some generic professional bio that was full of buzzwords, soft skills that can't be verified, and it truly didn't mean anything. With that gone, I hope you'll learn more about who I am as a person, instead of just a student qualified enough to hire.<br> <br>
+        <p style="text-align: left; font-family: 'Lato', sans-serif; font-size: 20px; padding-top: 10px;">
+          Hello, I'm Daniel Ku and I am a student with a passion for back-end software development. I could write about how I love life long learning, and how I code in my spare time as a hobby, but who wouldn't you hear that from? Initially, I wrote some generic professional bio that was full of buzzwords, soft skills that can't be verified, and it truly didn't mean anything. With that gone, I hope you'll learn more about who I am as a person, instead of just a student qualified enough to hire.<br> <br>
 
-          My professional software experience has solely consisted of backend development, although I'm very interested in gaining Full-Stack or DevOps experience. This website is my attempt at front end technologies, and thus, I have discovered my poor set of design skills. Improving those skills and the website is definitely on my to-do list, so don't be too harsh on me right now! (Check out how responsive the website is though)<br> <br>
+          My professional software experience has solely consisted of back-end development, although I'm very interested in gaining Full-Stack or DevOps experience. This website is my attempt at front end technologies, and definitely has room for improvement. Gaining more front-end experience and developing the website further is on my to-do list, so don't be too judgemental on it right now! (Making it responsive is hard!!)<br> <br>
 
-          My largest hobby and passion is video games. My all time favourite game is Starcraft, I've been playing since my childhood and now proudly play competitively for the Waterloo Starcraft 2 Team. Starcraft is a game where I can always learn from others and improve my own play. It is definitely the most satisfying feeling to grow better and better with time and see how far you've improved. As a side project, I've created a statistics analyzer to track my improvement, check it out on this site because I didn't want to pay for another domain space!
+          My largest hobby and passion is video games. My all time favourite game is Starcraft; I've been playing since my childhood and now proudly play competitively for the Waterloo Starcraft 2 Team. Starcraft is a game where I can always learn from others and improve my own play. It is definitely the most satisfying feeling to grow better and better with time and see how far you've improved. As a side project, I've created a statistics analyzer to track my improvement, check it out on this site because I didn't want to pay for another domain space!
         </p>
       </div>
       <div class="col-md-3">
-      <p  style="font-size: 22px; text-decoration: underline; text-align: center; font-family:Georgia">Some of my interests</p>
-      <ul style="display:table; font-size: 20px; padding-left: 5px; margin-bottom: 25px; font-family:Georgia">
-        <li>Cooking/Baking</li>
-        <li>Video Games</li>
-        <li>Getting hired</li>
-        <li>Piano</li>
-        <li>Volleyball</li>
-        <li>Gardening</li>
-        <li>Receiving job offers</li>
-        
-
-      </ul>
+        <h3 style="font-family: 'Oswald', sans-serif;"><u>Some of my Interests</u></h3>
+        <picture>
+          <img class = "interests" src="images/interest_cooking.png" alt="Volleyball">
+          <img class = "interests" src="images/interest_vball.png" alt="Cooking/Baking">
+          <img class = "interests" src="images/interest_vg.png" alt="Volleyball">
+          <img class = "interests" src="images/interest_hiring.png" alt="Cooking/Baking">
+          <img class = "interests" src="images/interest_gardening.png" alt="Volleyball">
+          <img class = "interests" src="images/interest_piano.png" alt="Cooking/Baking">
+        </picture>
       </div>
     </div>
 
 
     <!--Flip Cards/Skills -->
+
+    <div id="skills-start" class="container-fluid section-start side-padding" align="left">
+      <h2 style="font-family: 'Oswald'; font-size: 80px">TECHNICAL SKILLS</h2>
+    </div>
+
     <div class="container-fluid skills">
-      <div id="skills" class="row text-center also-excluded-from-divs-pls ">
-        <h2 style="padding-top: 15px;">Technical Skills</h2>
-      </div>
       <div class="container" style="text-align: center;">
+
+      <div class="info-card" >
+        <div class="front ruby-background">
+          <img class="card-image-ruby" src="images/ruby_logo.png">
+        </div>
+        <div class="back">
+          <h2>Ruby</h2>
+          <h4>Learning Since: 2016</h4>
+          <h4>Formal Courses Taken: 0</h4>
+          <h4>Job Experience: 8 Months</h4>
+          <p style="text-align: left;">
+            Picked up Ruby and Ruby On Rails during my work terms at Flipp. Also have experience using Rspec for TDD testing. Currently my favourite language!
+          </p>
+        </div>
+      </div>
+
         <div class="info-card">
-          <div class="front">
+          <div class="front java-background">
             <img class="card-image-java" src="images/java_logo.png">
           </div>
           <div class="back">
@@ -117,23 +136,7 @@ Looking for secrets?
             <h4>Formal Courses Taken: 2</h4>
             <h4>Job Experience: None</h4>
             <p style="text-align: left;">
-              Taken a high school level as well as a university level course. Familiar with OOP, Junit, JavaFX and android application development.
-            </p>
-          </div>
-        </div>
-
-        <!-- Scrolling enabled for longer content -->
-        <div class="info-card" >
-          <div class="front ruby-background">
-            <img class="card-image-ruby" src="images/ruby_logo.png">
-          </div>
-          <div class="back">
-            <h2>Ruby</h2>
-            <h4>Learning Since: 2016</h4>
-            <h4>Formal Courses Taken: 0</h4>
-            <h4>Job Experience: 4 Months</h4>
-            <p style="text-align: left;">
-                Picked up Ruby on the job and a bit of Ruby On Rails knowledge alongside it. Also have experience using Rspec for TDD testing.
+              Taken a high school level as well as a university level course. Familiar with OOP, Junit, JavaFX and android application development. Created the Diet Tracker side project in java (<a href="https://github.com/danielku97/Diet_tracker">Check it out here!</a>)
             </p>
           </div>
         </div>
@@ -148,7 +151,7 @@ Looking for secrets?
             <h4>Formal Courses Taken: 0</h4>
             <h4>Job Experience: 4 Months</h4>
             <p style="text-align: left;">
-                Learned on the job by creating ASP.NET MVC web APIS, utilizing frameworks such as Nhibernate to connect to databases. 
+                Learned on the job at D+H by creating ASP.NET MVC web APIS, utilizing Nhibernate as an ORM to interact with the database. 
             </p>
           </div>
         </div>
@@ -160,10 +163,10 @@ Looking for secrets?
           <div class="back">
             <h2>C++</h2>
             <h4>Learning Since: 2015</h4>
-            <h4>Formal Courses Taken: 1</h4>
+            <h4>Formal Courses Taken: 2</h4>
             <h4>Job Experience: None</h4>
             <p style="text-align: left;">
-              Taken an university level course that explained basic programming concepts, along with pointers, linked lists, and RISC.
+              Taken two university level courses, one covered basic programming concepts, along with pointers, linked lists, and RISC. The second covered data structures, algorithms and time complexity optimization techniques.
             </p>
           </div>
         </div>
@@ -178,7 +181,7 @@ Looking for secrets?
             <h4>Formal Courses Taken: 0</h4>
             <h4>Job Experience: 4 Months</h4>
             <p style="text-align: left;">
-              Performed web scraping on the job. Additionally, I made this site :)
+              Performed web scraping on the job at Flipp, familiar with XML, DOM and xpath selection. Additionally, I made this site :)
             </p>
           </div>
         </div>
@@ -191,9 +194,9 @@ Looking for secrets?
             <h2>SQL</h2>
              <h4>Learning Since: 2015</h4>
             <h4>Formal Courses Taken: 0</h4>
-            <h4>Job Experience: 8 Months</h4>
+            <h4>Job Experience: 12 Months</h4>
             <p style="text-align: left;">
-              Experienced with creating and modifying queries, joining tables, and writing stored procedures.
+              Experienced with creating and modifying queries, and writing stored procedures.
             </p>
           </div>
         </div>
@@ -206,9 +209,9 @@ Looking for secrets?
             <h2>git</h2>
             <h4>Learning Since: 2016</h4>
             <h4>Formal Courses Taken: 0</h4>
-            <h4>Job Experience: 4 Months</h4>
+            <h4>Job Experience: 8 Months</h4>
             <p style="text-align: left;">
-              Very familiar with using git repositories and workflow. Experience resolving some merge conflicts.
+              Very familiar with using git repositories and workflow. Solved many merge conflicts (most with myself...)
             </p>
           </div>
         </div>
@@ -217,72 +220,86 @@ Looking for secrets?
     </div>
        <!--Work Experience-->
 
-    <div id="work" class="work">
-       <h2 style="text-align: center; padding-top: 14px">Places I've worked at</h2>
-       <hr>
-
-       <div id="flipp-eq-height" class="flipp-div-parent side-padding row-eq-height">
-         <div class="flipp-div col-md-5 flipp-logo-container">
-           <img class="flipp-logo" src="images/flipp_logo.png" alt="Flipp Logo" align="middle">
-         </div>
-         <div class="flipp-text flipp-div col-md-7">
-
-          <div class="flipp-div row">
-            <div class="flipp-div col-md-8 text-left">
-             <p style="font-size: 36px">Flipp Corporation </p>
-             <p style="font-size: 24px">Software Developer</p>
-            </div>
-            <div class="flipp-div col-md-4 text-left flipp-date">
-           <p style="font-size: 14px">Jan. 2016 - Apr. 2016</p>
-            </div>
-          </div>
-
-           <ul style="font-size: 20px" class="flipp-list">
-             <li>Developed CSV parsers and scripts in Ruby</li>
-             <li>Followed the Agile software development process using Jira/Kanban board</li>
-             <li>Supported the operations team, solving technical issues and clearly explaining the solution without technical jargon</li>
-           </ul>
-        </div>
+      <div id="work-start" class="container-fluid section-start side-padding" align="left">
+        <h2 style="font-family: 'Oswald'; font-size: 80px">WORK EXPERIENCE</h2>
       </div>
 
-      <div id="dh-eq-height" class="dh-div-parent side-padding row-eq-height">
-         <div class="dh-div col-md-5 col-md-push-7">
-           <img class="dh-logo" src="images/d+h_logo.png" alt="D+H Logo" align="middle">
-         </div>
+    <div id="work-eq-height" class="work-div-parent side-padding row-eq-height">
+        <img class="work-logo" src="images/flipp_logo.png" alt="Flipp Logo" align="left">
 
-        <div class="dh-div col-md-7 col-md-pull-5">
+      <div class="work-title work-text work-div">
+        <div class="">
+            <p style="font-size: 36px">Flipp Corporation</p>
+            <p style="font-size: 24px">Software Engineer</p>
+            <p style="font-size: 14px">May 2017 - Aug. 2017</p>
+        </div>
 
-          <div class="dh-div row">
-            <div class="dh-div col-md-8 text-left">
-             <p class="dh-text" style="font-size: 36px; margin-top: 20px;">D+H Corporation </p>
-             <p class="dh-text" style="font-size: 24px">Software Developer</p>
-            </div>
-            <div class="dh-div col-md-4 text-left">
-           <p class="dh-date" style="font-size: 14px">Sept. 2016 - Dec. 2016</p>
-            </div>
-          </div>
+        <div>
+          <ul style="font-size: 20px" class="work-list">
+            <li>Worked on the Ecommerce team, developing Ruby parsers to ingest and update over 2 million items from CSV and XML files daily for major US and Canadian retailers</li>
+            <li>Investigated and implemented several API options to enhance Ecommerce item details</li>
+            <li>Maintained and improved the internal Rails application, adding many small features and refactoring previously existing features with unit tests </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-           <ul style="font-size: 20px" class="dh-list">
-             <li>Created ASP.NET MVC Web API'S in C#</li>
-             <li>Maintained Oracle database, added stored procedures and queried using Nhibernate</li>
+    <div id="work-eq-height" class="work-div-parent side-padding row-eq-height" style="background-color: #DDD">
+        <img class="work-logo" src="images/d+h_logo.png" alt="D+H Logo" align="left">
+
+      <div class="work-title work-text work-div" style="background-color: #DDD">
+        <div class="">
+            <p style="font-size: 36px">D+H Corporation</p>
+            <p style="font-size: 24px">Software Developer</p>
+            <p style="font-size: 14px">Sept. 2016 - Dec. 2016</p>
+        </div>
+
+        <div>
+          <ul style="font-size: 20px;" class="work-list">
+             <li>Developed a secure ASP.NET Web API to verify correct chequing information, and write to a database if valid</li>
+             <li>Managed a legacy Oracle database, focusing on creating and improving complex stored procedures</li>
              <li>Migrated Crystal Reports from versions 8.5 to 2013 by rewriting SQL queries</li>
-           </ul>
-         </div>
-       </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="work-eq-height" class="work-div-parent side-padding row-eq-height">
+        <img class="work-logo" src="images/flipp_logo.png" alt="Flipp Logo" align="left">
+
+      <div class="work-title work-text work-div">
+        <div class="">
+            <p style="font-size: 36px">Flipp Corporation</p>
+            <p style="font-size: 24px">Software Developer</p>
+            <p style="font-size: 14px">Jan. 2016 - Apr. 2016</p>
+        </div>
+
+        <div>
+          <ul style="font-size: 20px" class="work-list">
+       <li>Developed CSV parsers and scripts in Ruby for flyer processing and production</li>
+       <li>Worked in an Agile environment using Jira/Kanban board</li>
+        <li>Supported the operations team, solving technical issues with the internal Rails application and clearly explaining the solution without technical jargon</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!--Contact and Resume-->
-    <div id="contact" class=" row footer">
-       <h2 class="text-center">Get in contact with me!</h2>
 
-       <a class="email fa fa-envelope-square btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" href="mailto:danielku97@gmail.com">
+    <div id="work-start" class="container-fluid section-start side-padding" align="left">
+       <h2 style="font-family: 'Oswald'; font-size: 80px">CONTACT ME</h2>
+    </div>
+
+    <div id="contact" class=" row footer">
+
+       <a class="email fa fa-envelope-square btn btn-default btn-circle" style="font-size:90px" aria-hidden="true" href="mailto:danielku97@gmail.com">
        </a>
 
-       <a type="button" class="linkedin fa fa-linkedin-square btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" href="https://ca.linkedin.com/in/daniel-ku" target="blank"></a>
+       <a type="button" class="linkedin fa fa-linkedin-square btn btn-default btn-circle" style="font-size:90px" aria-hidden="true" href="https://ca.linkedin.com/in/daniel-ku" target="blank"></a>
 
-       <a type="button" class="facebook fa fa-facebook-square btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" href="https://www.facebook.com/daniel.ku.7" target="blank"></a>
+       <a type="button" class="facebook fa fa-facebook-square btn btn-default btn-circle" style="font-size:90px" aria-hidden="true" href="https://www.facebook.com/daniel.ku.7" target="blank"></a>
 
-       <a href="Daniel_Ku_Resume.pdf" class="resume fa fa-file-pdf-o btn btn-default btn-circle" style="font-size:24px" aria-hidden="true" target="blank"></a>
+       <a href="Daniel_Ku_Resume.pdf" class="resume fa fa-file-pdf-o btn btn-default btn-circle" style="font-size:90px" aria-hidden="true" target="blank"></a>
 
        <div class="email-text">danielku97@gmail.com</div>
        <div class="linkedin-text">LinkedIn</div>
