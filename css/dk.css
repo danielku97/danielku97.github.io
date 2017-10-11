@@ -1,4 +1,4 @@
-/*THERE ARE NO SECRETS HERE, WHAT ARE YOU LOOKING FOR?!?!*/
+/*No secrets here..*/
 
 body  {
     background-color: #FFFFFF; /* Some weird lines occur...*/
@@ -74,6 +74,7 @@ body  {
 }
 
 .section-start{
+	letter-spacing: 3px;
 	color: #FFFFFF;
 	background-color: #1B2964;
 }
@@ -115,6 +116,7 @@ body  {
 	width: 250px;
 	height: 330px;
 	-webkit-transform: rotateY(-180deg);
+	font-family: 'Lato';
 /*	overflow: scroll;*/
 }
 
@@ -224,6 +226,7 @@ body  {
 .work-div{
 	background-color: #FFFFFF;
 	color: #000000;
+	font-family: 'Lato';
 }
 
 .work-logo{ 
@@ -242,7 +245,7 @@ body  {
 	display: inline-block;
 	border-radius: 50%;
 	border-color: #1B2964;
-	margin: 5px;
+	margin: 20px;
 	text-align: center;
 	z-index: 3;
 } 
