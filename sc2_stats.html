@@ -17,13 +17,15 @@ Looking for secrets?
     <link href="css/bootstrap.min.css" rel="stylesheet"> 
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/dk.css" rel="stylesheet"> 
+    <link href="css/sc2.css" rel="stylesheet"> 
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
     <script src="js/dk.js" type="text/javascript"></script>
+    <script src="js/canvasjs.min.js" type="text/javascript"></script>
+
   </head>
   <body>
 
@@ -50,19 +52,27 @@ Looking for secrets?
     <!--Text -->
 
     <div id="work-start" class="container-fluid section-start side-padding" align="left">
-       <h2 style="font-family: 'Oswald'; font-size: 80px">STARCRAFT EXPERIMENT</h2>
+       <h2 style="font-family: 'Oswald'; font-size: 80px;">STARCRAFT 2 STATS PROJECT</h2>
     </div>
 
-    <div>
-      <h1>Experimental Space</h1>
-      <p id="api-title">Change title</p>
-      <button type="button" onclick="sc2_api()">Call API</button>
-      <h1 id="displayName">displayName</h1>
-      <h2 id="clanName">clanName</h2>
-      <p style="min-height: 300px"> Some spacing</p>
+    <div class="background side-padding" align="center">
+      <p id="displayName" class="main-stats-big" style="font-size: 100px;">displayName</p>
+      <p id="clanName" class="main-stats-small">clanName</p>
+      <p id="winsToGames" class="main-stats">wins</p>
+      <p id="winRate" class="main-stats">winRate</p>
+      <p id="totalGames" class="main-stats">totalGames</p>
     </div>
 
-
+    <div id="chartContainer" class="side-padding" style="max-width: 1600px; min-height: 300px;">Chart Container</div>
+    <div class="side-padding" style="padding-top: 0px">
+      <h2>Upcoming Features</h2>
+      <ul>
+        <li>Add MMR (Requires Oauth and backend, meaning moving off github pages)</li>
+        <li>Log match history to extend past 25 games API displays</li>
+        <li>Make this page responsive</li>
+        <li>Add parameters to search up any player, not just me</li>
+      </ul>
+    </div>
 
   </body>
 </html>

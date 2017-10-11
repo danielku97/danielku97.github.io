@@ -1,0 +1,42 @@
+body  {
+	font-family: 'Lato';
+    margin-top: 50px;
+}
+
+.background{
+	background-image: url("../images/zerg_wallpaper.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110%;
+}
+
+@media screen and (min-width:1300px){
+	.side-padding{
+			padding-left: 10em;
+			padding-right: 10em;
+	}
+}
+
+.section-start{
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	background-color: #1B2964;
+}
+
+.main-stats-big{
+	text-align: left;
+	font-size: 100px;
+}
+
+.main-stats-small{
+	text-align: left;
+	font-size: 50px;
+	margin-top: -30px;
+}
+
+.main-stats{
+	text-align: left;
+	font-size: 70px;
+	margin-top: -30px;
+}
