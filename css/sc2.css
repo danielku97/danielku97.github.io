@@ -11,13 +11,6 @@ body  {
     min-height: 110%;
 }
 
-@media screen and (min-width:1300px){
-	.side-padding{
-			padding-left: 10em;
-			padding-right: 10em;
-	}
-}
-
 .section-start{
 	letter-spacing: 3px;
 	color: #FFFFFF;
@@ -39,4 +32,27 @@ body  {
 	text-align: left;
 	font-size: 70px;
 	margin-top: -30px;
+}
+
+.side-padding{
+	padding-left: 10em;
+	padding-right: 10em;
+}
+
+.chart{
+	max-width: 1600px;
+	min-height: 300px;
+}
+
+
+@media screen and (max-width: 1400px){
+.main-stats{
+	text-align: left;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.chart{
+	max-width: 1200px;
+}
 }
