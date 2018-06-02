@@ -147,10 +147,10 @@ body  {
 }
 
 .card-image-ruby {
-	margin-top: 40px;
+	margin-top: 60px;
 	margin-left: 2px;
 	width: 70%;
-	height: 70%;
+	height: 60%;
 
 }
 
@@ -179,6 +179,49 @@ body  {
 	background-color: #E6E6FA;
 }
 
+.card-image-python {
+	margin-left: 0px;
+	margin-top: 40px;
+	width: 80%;
+	height: 70%;
+}
+
+.python-background{
+	background-color: #E6E6FA;
+}
+
+.card-image-scheme {
+	margin-left: 15px;
+	margin-top: 60px;
+	width: 80%;
+	height: 60%;
+}
+
+.scheme-background{
+	background-color: #E6E6FA;
+}
+
+.card-image-html-css{
+	margin-left: 3px;
+	margin-top: 48px;
+	width: 100%;
+	height: 70%;
+}
+
+.html-css-background{
+	background-color: #E6E6FA;
+}
+
+.card-image-javascript{
+	margin-left: -60px;
+	margin-top: 35px;
+	width: 150%;
+	height: 80%;
+}
+
+.javascript-background{
+	background-color: #E6E6FA;
+}
 .card-image-sql{
 	margin-left: -18px;
 	margin-top: 10px;
@@ -198,17 +241,6 @@ body  {
 }
 
 .git-background{
-	background-color: #E6E6FA;
-}
-
-.card-image-html-css{
-	margin-left: 3px;
-	margin-top: 48px;
-	width: 100%;
-	height: 70%;
-}
-
-.html-css-background{
 	background-color: #E6E6FA;
 }
 
