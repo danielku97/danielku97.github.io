@@ -8,8 +8,27 @@ body  {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 110%;
+    min-height: 70%;
 }
+
+.table-header{
+	text-align: left;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+.table-account{
+	text-align: center;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+.table-data{
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
 
 .section-start{
 	letter-spacing: 3px;
@@ -18,17 +37,20 @@ body  {
 }
 
 .main-stats-big{
+	color: #FFFFFF;
 	text-align: left;
 	font-size: 100px;
 }
 
 .main-stats-small{
+	color: #FFFFFF;
 	text-align: left;
 	font-size: 50px;
 	margin-top: -30px;
 }
 
 .main-stats{
+	color: #FFFFFF;
 	text-align: left;
 	font-size: 70px;
 	margin-top: -30px;

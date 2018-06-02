@@ -52,15 +52,37 @@ Looking for secrets?
     <!--Text -->
 
     <div id="work-start" class="container-fluid section-start side-padding" align="left">
-       <h2 style="font-family: 'Oswald'; font-size: 80px;">STARCRAFT 2 STATS PROJECT</h2>
+       <h2 style="font-family: 'Oswald'; font-size: 80px;">STARCRAFT 2 STATS</h2>
     </div>
 
     <div class="background side-padding" align="center">
-      <p id="displayName" class="main-stats-big" style="font-size: 100px;">displayName</p>
-      <p id="clanName" class="main-stats-small">clanName</p>
-      <p id="winsToGames" class="main-stats">wins</p>
-      <p id="winRate" class="main-stats">winRate</p>
-      <p id="totalGames" class="main-stats">totalGames</p>
+      <table cellspacing="10px" align="left" border-collapse="collapse" width="100%">
+        <tr>
+          <th class="table-header">Account</th>
+          <td class="table-account" id="displayName"></td>
+          <td class="table-account" id="displayName2"></td>
+        </tr>
+        <tr>
+          <th class="table-header">Win/Loss</th>
+          <td class="table-data" id="winsToGames"></td>
+          <td class="table-data" id="winsToGames2"></td>
+        </tr>
+        <tr>
+          <th class="table-header" >Win Rate</th>
+          <td class="table-data" id="winRate"></td>
+          <td class="table-data" id="winRate2"></td>
+        </tr>
+        <tr>
+          <th class="table-header" >Total Games</th>
+          <td class="table-data" id="totalGames"></td>
+          <td class="table-data" id="totalGames2"></td>
+        </tr>
+      </table>
+<!--       <p id="displayName" class="main-stats-big" style="font-size: 100px;"></p>
+      <p id="clanName" class="main-stats-small"></p>
+      <p id="winsToGames" class="main-stats"></p>
+      <p id="winRate" class="main-stats"></p>
+      <p id="totalGames" class="main-stats"></p> -->
     </div>
 
     <!-- <div id="chartContainer" class="side-padding chart">Chart Container</div> -->
@@ -75,7 +97,7 @@ Looking for secrets?
         <li>Add MMR (Requires Oauth and backend, meaning moving off github pages)</li>
         <li>Log match history to extend past 25 games API displays</li>
         <li>Make this page responsive</li>
-        <li>Add parameters to search up any player, not just me</li>
+        <li>Add parameters to search up any player, not just my accounts</li>
       </ul>
     </div>
 
